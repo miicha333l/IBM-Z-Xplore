@@ -108,7 +108,4 @@ Découvrir la gestion des ensembles de données et des membres sur z/OS, apprend
 //SYSIN    DD *
   DELETE 'MONPDS(MONMBR)' MEMBER
 /*
-```
 
----
-Bravo pour avoir terminé ce défi sur la gestion des données sur z/OS !
