@@ -38,21 +38,27 @@ Cette rubrique regroupe les solutions, explications et ressources pour les défi
 - Datasets et utilitaires avancés
 - Intégration du mainframe avec des outils modernes
 
-### [📁 cobol1](./cobol1) — Défi COBOL « ADDAMT »
 
-Ce dossier contient le programme COBOL `ADDAMT.cbl` réalisé dans le cadre du défi IBM Z Xplore.
+### [`� cobol1/`](./cobol1) — COBOL, IBM Z
+Défi COBOL « ADDAMT » : programme qui lit un numéro de client et trois montants, puis affiche le total.
 
-#### Description
-
-Ce programme lit un numéro de client et trois montants, puis affiche le total.
-
-#### Fichiers
-
+**Fichiers principaux :**
 - `ADDAMT.cbl` : Code source COBOL du défi.
 
-#### Utilisation
+**Instructions :**
+1. Transférez le fichier `ADDAMT.cbl` sur votre mainframe IBM Z.
+2. Compilez le programme COBOL via JCL ou Zowe CLI.
+3. Soumettez le job JCL associé pour exécuter le programme.
+4. Vérifiez la sortie dans le spool ou via Zowe CLI.
 
-Soumettez le programme sur IBM Z via JCL ou Zowe CLI.
+Exemple de soumission avec Zowe :
+```sh
+zowe zos-jobs submit data-set "VOTRE.DATASET.JCL(MEMBREJCL)" --wait-for-output --response-format-json
+```
+
+**Astuces :**
+- Adaptez le JCL selon votre environnement (nom de dataset, paramètres…).
+- Consultez le README principal pour plus de ressources sur IBM Z Xplore.
 
 ---
 
