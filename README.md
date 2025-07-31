@@ -39,7 +39,7 @@ Cette rubrique regroupe les solutions, explications et ressources pour les défi
 - Intégration du mainframe avec des outils modernes
 
 
-### [`� cobol1/`](./cobol1) — COBOL, IBM Z
+### [📁 cobol1](./cobol11) — COBOL, IBM Z
 Défi COBOL « ADDAMT » : programme qui lit un numéro de client et trois montants, puis affiche le total.
 
 **Fichiers principaux :**
