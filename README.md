@@ -4,21 +4,56 @@ Ce dépôt regroupe les solutions et explications des principaux défis techniqu
 
 ## Structure des dossiers
 
-- [`📦 vsc1/`](./vsc1) — <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="20"/> VS Code, Zowe Explorer  
-  Contient le défi VSC1 « Connectez-vous ». Guide pour se connecter au mainframe IBM Z via VS Code et Zowe Explorer.
-- [`🗂️ jcl1/`](./jcl1) — <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ibm/ibm-original.svg" width="20"/> JCL, IBM Z  
-  Contient le défi JCL1 « Making Things Happen ». Explications sur le JCL, la soumission de jobs et les concepts mainframe.
-- [`📝 files1/`](./files1) — <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ibm/ibm-original.svg" width="20"/> Datasets, IBM Z  
-  Contient le défi FILES1 « How Data Gets Down on z/OS ». Gestion des ensembles de données, membres, et opérations courantes sur z/OS.
-- [`💻 uss1/`](./uss1) — <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20"/> UNIX System Services, Shell  
-  Contient le défi USS1 « CD CIRCLE && CD .. && CD && ./SHAKE_IT_ALL_ABOUT.SH ». Découverte de l’environnement UNIX sur z/OS, navigation, scripts et redirections.
-- [`🐍 code1/`](./code1) — <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20"/> Python, Premiers pas  
-  Contient le défi CODE1 « Premiers pas en Python ». Découverte des bases du langage Python sur IBM Z.
-- [`🧩 rexx1/`](./rexx1) — <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Rexx_logo.png" width="20"/> Rexx, Zowe CLI  
-  Contient le défi REXX1 « Découverte du langage Rexx et de Zowe CLI ». Exécution de programmes Rexx et gestion TSO.
-- [📁 datasets1](./datasets1) — Défi sur les ensembles de données séquentiels, partitionnés et automatisation Python
+- [`📦 vsc1/`](./vsc1) — VS Code, Zowe Explorer  
+  Connectez-vous au mainframe IBM Z via VS Code et Zowe Explorer.
+- [`🗂️ jcl1/`](./jcl1) — JCL, IBM Z  
+  Making Things Happen : soumission de jobs et concepts JCL.
+- [`📝 files1/`](./files1) — Datasets, IBM Z  
+  How Data Gets Down on z/OS : gestion des ensembles de données et membres.
+- [`💻 uss1/`](./uss1) — UNIX System Services, Shell  
+  Découverte de l’environnement UNIX sur z/OS, navigation et scripts.
+- [`🐍 code1/`](./code1) — Python  
+  Premiers pas en Python sur IBM Z.
+- [`🧩 rexx1/`](./rexx1) — Rexx, Zowe CLI  
+  Découverte du langage Rexx et de Zowe CLI.
+- [📁 datasets1](./datasets1) — Datasets séquentiels, partitionnés et automatisation Python
 
-Chaque dossier contient un fichier README.md spécifique au défi, avec les instructions, astuces et exemples de code nécessaires pour réussir l’exercice.
+Chaque dossier contient un fichier README.md spécifique au défi, avec instructions, astuces et exemples de code pour réussir l’exercice.
 
 ---
+
 N’hésitez pas à explorer chaque dossier pour progresser dans votre apprentissage IBM Z !
+
+---
+
+## 🚀 Défis avancés
+
+Vous venez d’atteindre le niveau avancé sur IBM Z Xplore !  
+Cette rubrique regroupe les solutions, explications et ressources pour les défis avancés, notamment :
+
+- JCL et automatisation avancés
+- Sécurité et RACF
+- Programmation système
+- Optimisation des performances
+- Datasets et utilitaires avancés
+- Intégration du mainframe avec des outils modernes
+
+### [📁 cobol1](./cobol1) — Défi COBOL « ADDAMT »
+
+Ce dossier contient le programme COBOL `ADDAMT.cbl` réalisé dans le cadre du défi IBM Z Xplore.
+
+#### Description
+
+Ce programme lit un numéro de client et trois montants, puis affiche le total.
+
+#### Fichiers
+
+- `ADDAMT.cbl` : Code source COBOL du défi.
+
+#### Utilisation
+
+Soumettez le programme sur IBM Z via JCL ou Zowe CLI.
+
+---
+
+Explorez cette section pour des astuces, exemples de code et guides afin de maîtriser les sujets avancés sur IBM Z.
